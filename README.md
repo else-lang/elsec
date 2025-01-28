@@ -1,2 +1,11 @@
-# elsec
-C Frontend for ELSE Programing Language
+# ELSE programing language
+### C frontend for ELSE programing language
+
+## Install
+```
+sudo make install
+```
+
+```
+make clean
+```
