@@ -58,7 +58,7 @@ CMakeFiles
 CMakeScripts
 Testing
 
-#Makefile
+# CMakeFiles
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
@@ -66,13 +66,12 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 
+# Makefile
+.bin/
+.cache/
+
 # IDE
 .idea/
 
 # CLion
 cmake-build-*/
-#cmake-build-debug/
-#cmake-build-default/
-#cmake-build-minsizerel/
-#cmake-build-release/
-#cmake-build-relwithdebinfo/

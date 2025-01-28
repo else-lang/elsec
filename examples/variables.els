@@ -1,0 +1,14 @@
+let variable_null = null;
+
+int variable_int = 1;
+
+char variable_char = 's';
+
+string variable_string = 'sdsdsds';
+
+array variable_array = [];
+
+
+int function_1() {
+    return 0;
+}

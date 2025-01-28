@@ -15,7 +15,8 @@ int main(int argc, char **argv)
 
     //printf("ENV: %s\n", version);
     printf("argc: %d\n", argc);
-    printf("argv0: %s\n", argv[1]);
+    printf("argv0: %s\n", argv[0]);
+    printf("argv1: %s\n", argv[1]);
 
 
     return EXIT_SUCCESS;

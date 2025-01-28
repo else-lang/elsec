@@ -11,7 +11,8 @@ C_DEFINES = \
 	-DDEFAULT_TARGET='"$(DEFAULT_TARGET)"'
 
 sources = $(wildcard src/*.c)
-headers = src/include/*.h
+headers = $(wildcard src/include/*.h)
+objects = $(patsubst %.c,$(CACHE)/%.o,$(shell ls src/*.c))
 
 $(BINOUT)/else: $(objects)
 	@mkdir -p -- $(BINOUT)

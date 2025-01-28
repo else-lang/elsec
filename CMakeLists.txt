@@ -17,5 +17,6 @@ set(ELSE_VERSION "" CACHE STRING "Override ELSE Language version string. Default
 set(CMAKE_C_STANDARD 23)
 
 add_executable(else
+        src/lexer.c
         src/main.c
 )
